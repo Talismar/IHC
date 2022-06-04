@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+form {
+  margin: 20px;
+}
+
+label,
+input {
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#btn{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#btn input {
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0px 5px 0px 5px;
+}
+
+.check_btn{
+  margin: 10px;
+}
